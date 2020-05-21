@@ -7,7 +7,7 @@ import (
 	"crypto/x509/pkix"
 	"testing"
 
-	"github.com/evergreen-ci/gimlet"
+	"github.com/deciduosity/gimlet"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/credentials"

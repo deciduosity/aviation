@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/evergreen-ci/gimlet"
+	"github.com/deciduosity/gimlet"
 )
 
 type contextKey int

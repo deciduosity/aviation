@@ -8,13 +8,13 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/evergreen-ci/aviation"
+	"github.com/deciduosity/aviation"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 )
 
 // DialCedarOptions describes the options for the DialCedar function. The base
-// address defaults to `cedar.mongodb.com` and the RPC port to 7070. If a base
+// address defaults to `cedar.deciduosity.com` and the RPC port to 7070. If a base
 // address is provided the RPC port must also be provided. The LDAP credentials
 // username and password must always be provided.
 type DialCedarOptions struct {
@@ -31,7 +31,7 @@ func (opts *DialCedarOptions) validate() error {
 	}
 
 	if opts.BaseAddress == "" {
-		opts.BaseAddress = "cedar.mongodb.com"
+		opts.BaseAddress = "cedar.deciduosity.com"
 		opts.RPCPort = "7070"
 	}
 

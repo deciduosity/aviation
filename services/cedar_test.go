@@ -45,7 +45,7 @@ func TestDialCedarOptionsValidate(t *testing.T) {
 			Retries:  10,
 		}
 		assert.NoError(t, opts.validate())
-		assert.Equal(t, "cedar.mongodb.com", opts.BaseAddress)
+		assert.Equal(t, "cedar.deciduosity.com", opts.BaseAddress)
 		assert.Equal(t, "7070", opts.RPCPort)
 	})
 	t.Run("ConfiguredOptions", func(t *testing.T) {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/mongodb/grip"
-	"github.com/mongodb/grip/message"
-	"github.com/mongodb/grip/recovery"
+	"github.com/deciduosity/grip"
+	"github.com/deciduosity/grip/message"
+	"github.com/deciduosity/grip/recovery"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
 )

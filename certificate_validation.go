@@ -3,7 +3,7 @@ package aviation
 import (
 	"context"
 
-	"github.com/evergreen-ci/gimlet"
+	"github.com/deciduosity/gimlet"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials"

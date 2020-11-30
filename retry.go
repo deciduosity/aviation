@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/jpillora/backoff"
-	"github.com/deciduosity/grip"
-	"github.com/deciduosity/grip/message"
+	"github.com/cdr/grip"
+	"github.com/cdr/grip/message"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 )
